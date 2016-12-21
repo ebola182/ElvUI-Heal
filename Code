@@ -1,1 +1,340 @@
-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
+{
+    ["databars"] = {
+        ["reputation"] = {
+            ["enable"] = true,
+        },
+        ["honor"] = {
+            ["enable"] = false,
+        },
+    },
+    ["currentTutorial"] = 3,
+    ["sle"] = {
+        ["media"] = {
+            ["fonts"] = {
+                ["zone"] = {
+                    ["font"] = "Durandal Light",
+                },
+                ["subzone"] = {
+                    ["font"] = "Durandal Light",
+                },
+                ["pvp"] = {
+                    ["size"] = 20,
+                    ["font"] = "Trafaret",
+                },
+            },
+        },
+        ["datatext"] = {
+            ["dp6"] = {
+                ["width"] = 406,
+            },
+            ["top"] = {
+                ["width"] = 202,
+            },
+            ["bottom"] = {
+                ["width"] = 202,
+            },
+        },
+        ["minimap"] = {
+            ["mapicons"] = {
+                ["skindungeon"] = true,
+            },
+        },
+        ["loot"] = {
+            ["announcer"] = {
+                ["enable"] = true,
+            },
+            ["autoroll"] = {
+                ["enable"] = false,
+            },
+            ["enable"] = true,
+        },
+        ["threat"] = {
+            ["enable"] = false,
+        },
+        ["tooltip"] = {
+            ["showFaction"] = true,
+        },
+        ["raidmarkers"] = {
+            ["enable"] = false,
+        },
+    },
+    ["bags"] = {
+        ["bagSize"] = 25,
+        ["sortInverted"] = false,
+        ["bankSize"] = 25,
+        ["bagBar"] = {
+            ["size"] = 25,
+        },
+        ["alignToChat"] = false,
+        ["bagWidth"] = 238,
+    },
+    ["hideTutorial"] = true,
+    ["chat"] = {
+        ["tabFont"] = "Rubino",
+        ["font"] = "Arial Narrow",
+    },
+    ["layoutSet"] = "dpsCaster",
+    ["movers"] = {
+        ["DP_6_Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4",
+        ["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,318,432",
+        ["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,101",
+        ["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,423,656",
+        ["LeftChatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,0,19",
+        ["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-556",
+        ["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-175,-4",
+        ["GhostFrameMover"] = "TOP,ElvUIParent,TOP,0,-189",
+        ["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,0,240",
+        ["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,566,-589",
+        ["ZoneAbility"] = "BOTTOM,ElvUIParent,BOTTOM,0,240",
+        ["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+        ["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,318,452",
+        ["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-141,200",
+        ["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,143",
+        ["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,536",
+        ["Bottom_Panel_Mover"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
+        ["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,37",
+        ["DP_5_Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,4",
+        ["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,278,177",
+        ["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,313",
+        ["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,273,4",
+        ["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-219",
+        ["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,886,98",
+        ["ElvUF_PartyMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,423,468",
+        ["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-105,302",
+        ["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,-273,4",
+        ["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,55,71",
+        ["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,781",
+        ["BossHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-105,271",
+        ["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-278,177",
+        ["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,199",
+        ["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,18",
+        ["ElvAB_5"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-37,-419",
+        ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-175,-150",
+        ["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,715",
+    },
+    ["tooltip"] = {
+        ["healthBar"] = {
+            ["font"] = "Rubino",
+            ["fontSize"] = 11,
+        },
+    },
+    ["bossAuraFiltersConverted"] = true,
+    ["unitframe"] = {
+        ["statusbar"] = "Minimalist",
+        ["colors"] = {
+            ["auraBarBuff"] = {
+                ["r"] = 0.58,
+                ["g"] = 0.51,
+                ["b"] = 0.79,
+            },
+            ["castColor"] = {
+                ["r"] = 0.1,
+                ["g"] = 0.1,
+                ["b"] = 0.1,
+            },
+            ["healthclass"] = true,
+            ["castClassColor"] = true,
+            ["health"] = {
+                ["r"] = 0.1,
+                ["g"] = 0.1,
+                ["b"] = 0.1,
+            },
+        },
+        ["smoothbars"] = true,
+        ["units"] = {
+            ["pet"] = {
+                ["castbar"] = {
+                    ["enable"] = false,
+                },
+            },
+            ["focustarget"] = {
+                ["enable"] = true,
+            },
+            ["target"] = {
+                ["debuffs"] = {
+                    ["perrow"] = 10,
+                    ["attachTo"] = "FRAME",
+                    ["anchorPoint"] = "BOTTOMRIGHT",
+                },
+                ["portrait"] = {
+                    ["overlay"] = true,
+                    ["enable"] = true,
+                },
+                ["castbar"] = {
+                    ["height"] = 28,
+                    ["width"] = 406,
+                },
+                ["buffs"] = {
+                    ["perrow"] = 10,
+                },
+                ["aurabar"] = {
+                    ["attachTo"] = "BUFFS",
+                    ["maxBars"] = 3,
+                    ["height"] = 18,
+                },
+            },
+            ["party"] = {
+                ["horizontalSpacing"] = 3,
+                ["debuffs"] = {
+                    ["enable"] = false,
+                    ["perrow"] = 3,
+                },
+                ["rdebuffs"] = {
+                    ["enable"] = true,
+                },
+                ["growthDirection"] = "RIGHT_DOWN",
+                ["roleIcon"] = {
+                    ["xOffset"] = 1,
+                    ["position"] = "TOPLEFT",
+                    ["yOffset"] = -1,
+                },
+                ["power"] = {
+                    ["position"] = "BOTTOMRIGHT",
+                    ["text_format"] = "",
+                    ["yOffset"] = 2,
+                },
+                ["GPSArrow"] = {
+                    ["size"] = 40,
+                },
+                ["width"] = 80,
+                ["infoPanel"] = {
+                    ["height"] = 12,
+                },
+                ["orientation"] = "MIDDLE",
+                ["name"] = {
+                    ["text_format"] = "[namecolor][name:short]",
+                },
+                ["health"] = {
+                    ["xOffset"] = 0,
+                    ["yOffset"] = 2,
+                    ["text_format"] = "[healthcolor][health:deficit]",
+                    ["position"] = "BOTTOM",
+                },
+                ["height"] = 44,
+                ["buffs"] = {
+                    ["perrow"] = 3,
+                },
+            },
+            ["raid40"] = {
+                ["roleIcon"] = {
+                    ["enable"] = true,
+                },
+            },
+            ["raid"] = {
+                ["debuffs"] = {
+                    ["anchorPoint"] = "CENTER",
+                },
+                ["name"] = {
+                    ["text_format"] = "[namecolor][name:medium]",
+                },
+            },
+            ["player"] = {
+                ["debuffs"] = {
+                    ["perrow"] = 10,
+                },
+                ["portrait"] = {
+                    ["overlay"] = true,
+                    ["enable"] = true,
+                },
+                ["castbar"] = {
+                    ["height"] = 28,
+                    ["width"] = 406,
+                    ["insideInfoPanel"] = false,
+                },
+                ["aurabar"] = {
+                    ["maxBars"] = 3,
+                    ["height"] = 18,
+                },
+                ["buffs"] = {
+                    ["perrow"] = 10,
+                },
+            },
+        },
+    },
+    ["datatexts"] = {
+        ["minimapPanels"] = false,
+        ["goldCoins"] = true,
+        ["time24"] = true,
+        ["panels"] = {
+            ["Top_Center"] = "S&L Guild",
+            ["Bottom_Panel"] = "S&L Friends",
+            ["DP_6"] = {
+                ["right"] = "Time",
+                ["left"] = "S&L Currency",
+                ["middle"] = "System",
+            },
+        },
+    },
+    ["actionbar"] = {
+        ["bar3"] = {
+            ["buttonsPerRow"] = 12,
+            ["buttonsize"] = 28,
+            ["buttons"] = 12,
+        },
+        ["bar2"] = {
+            ["enabled"] = true,
+            ["buttonsPerRow"] = 6,
+            ["alpha"] = 0.6,
+            ["buttonsize"] = 28,
+        },
+        ["bar1"] = {
+            ["buttonsize"] = 28,
+        },
+        ["bar4"] = {
+            ["mouseover"] = true,
+            ["buttonsize"] = 28,
+        },
+        ["bar5"] = {
+            ["enabled"] = false,
+            ["buttons"] = 12,
+            ["buttonsPerRow"] = 1,
+            ["buttonsize"] = 28,
+        },
+        ["barPet"] = {
+            ["buttonsPerRow"] = 10,
+            ["buttonsize"] = 23,
+            ["point"] = "TOPLEFT",
+        },
+        ["stanceBar"] = {
+            ["buttonsize"] = 23,
+        },
+        ["bar6"] = {
+            ["enabled"] = true,
+            ["point"] = "TOPRIGHT",
+            ["buttonsPerRow"] = 6,
+            ["alpha"] = 0.6,
+            ["buttonsize"] = 28,
+        },
+        ["microbar"] = {
+            ["enabled"] = true,
+            ["mouseover"] = true,
+            ["alpha"] = 0.8,
+        },
+        ["backdropSpacingConverted"] = true,
+    },
+    ["general"] = {
+        ["threat"] = {
+            ["enable"] = false,
+        },
+        ["vendorGrays"] = true,
+        ["bordercolor"] = {
+            ["r"] = 0.31,
+            ["g"] = 0.31,
+            ["b"] = 0.31,
+        },
+        ["font"] = "Continuum Medium",
+        ["bottomPanel"] = false,
+        ["valuecolor"] = {
+            ["r"] = 0,
+            ["g"] = 1,
+            ["b"] = 0.59,
+        },
+        ["fontSize"] = 11,
+    },
+    ["auras"] = {
+        ["consolidatedBuffs"] = {
+            ["fontOutline"] = "NONE",
+            ["font"] = "Intro Black",
+        },
+    },
+}::profile::DPS-Melee
