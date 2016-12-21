@@ -1,2 +1,2 @@
-# ElvUI-Heal
-Code of my ElvUI Tank/Meele profile from WoW
+# ElvUI Tank/Melee
+Code of my ElvUI Tank/Melee profile from WoW
